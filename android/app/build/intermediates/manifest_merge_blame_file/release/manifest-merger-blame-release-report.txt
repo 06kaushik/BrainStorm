@@ -1,0 +1,388 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.brainstorm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+12-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+13-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+13-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
+14-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:5-76
+14-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:22-73
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Required to read and write the expansion files on shared storage for Android 11 -->
+15-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:5-81
+15-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required to to download files without a notification -->
+16-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:5-80
+16-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:22-77
+17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:5-88
+17-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:22-85
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.android.gms:play-services-iid:17.0.0] /Users/vishadjain/.gradle/caches/transforms-3/df93caa333206a75dc2c9ef05042fe17/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+18-->[com.google.android.gms:play-services-iid:17.0.0] /Users/vishadjain/.gradle/caches/transforms-3/df93caa333206a75dc2c9ef05042fe17/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+19-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+20
+21    <permission
+21-->[androidx.core:core:1.9.0] /Users/vishadjain/.gradle/caches/transforms-3/1611756bb820161f09565fccf9dea0b6/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+22        android:name="com.brainstorm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+22-->[androidx.core:core:1.9.0] /Users/vishadjain/.gradle/caches/transforms-3/1611756bb820161f09565fccf9dea0b6/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+23        android:protectionLevel="signature" />
+23-->[androidx.core:core:1.9.0] /Users/vishadjain/.gradle/caches/transforms-3/1611756bb820161f09565fccf9dea0b6/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+24
+25    <uses-permission android:name="com.brainstorm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+25-->[androidx.core:core:1.9.0] /Users/vishadjain/.gradle/caches/transforms-3/1611756bb820161f09565fccf9dea0b6/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.9.0] /Users/vishadjain/.gradle/caches/transforms-3/1611756bb820161f09565fccf9dea0b6/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.android.installreferrer:installreferrer:1.1.2] /Users/vishadjain/.gradle/caches/transforms-3/6547000ce8cf64dd3c976dcb78cc4fc4/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+26-->[com.android.installreferrer:installreferrer:1.1.2] /Users/vishadjain/.gradle/caches/transforms-3/6547000ce8cf64dd3c976dcb78cc4fc4/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+27
+28    <application
+28-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:5:5-26:19
+29        android:name="com.brainstorm.MainApplication"
+29-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:6:7-38
+30        android:allowBackup="false"
+30-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:10:7-34
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.9.0] /Users/vishadjain/.gradle/caches/transforms-3/1611756bb820161f09565fccf9dea0b6/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:8:7-41
+33        android:label="@string/app_name"
+33-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:7:7-39
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:9:7-52
+35        android:theme="@style/AppTheme"
+35-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:13:7-38
+36        android:usesCleartextTraffic="true" >
+36-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:11:9-44
+37        <activity
+37-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:14:7-25:18
+38            android:name="com.brainstorm.MainActivity"
+38-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:15:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:17:9-118
+40            android:exported="true"
+40-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:20:9-32
+41            android:label="@string/app_name"
+41-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:16:9-41
+42            android:launchMode="singleTask"
+42-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:18:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:19:9-51
+44            <intent-filter>
+44-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:21:9-24:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:22:13-65
+45-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:22:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:23:13-73
+47-->/Users/vishadjain/Documents/Brainstorm/android/app/src/main/AndroidManifest.xml:23:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:40
+52            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+52-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-103
+53            android:exported="false" />
+53-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+54        <service
+54-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-21:19
+55            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+55-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-95
+56            android:exported="false" >
+56-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+57            <intent-filter>
+57-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+58                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+58-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+58-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+59            </intent-filter>
+60        </service>
+61
+62        <receiver
+62-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-30:20
+63            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+63-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-96
+64            android:exported="true"
+64-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-36
+65            android:permission="com.google.android.c2dm.permission.SEND" >
+65-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-73
+66            <intent-filter>
+66-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+67                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+67-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+67-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+68            </intent-filter>
+69        </receiver>
+70
+71        <meta-data
+71-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-34:36
+72            android:name="firebase_messaging_auto_init_enabled"
+72-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-64
+73            android:value="true" />
+73-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-33
+74        <meta-data
+74-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-37:32
+75            android:name="com.google.firebase.messaging.default_notification_channel_id"
+75-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-89
+76            android:value="" />
+76-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-29
+77        <meta-data
+77-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-40:47
+78            android:name="com.google.firebase.messaging.default_notification_color"
+78-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-84
+79            android:resource="@color/white" />
+79-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-44
+80        <meta-data
+80-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:9-11:36
+81            android:name="app_data_collection_default_enabled"
+81-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-63
+82            android:value="true" />
+82-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-33
+83
+84        <service
+84-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-21:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-84
+86            android:directBootAware="true"
+86-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-43
+87            android:exported="false" >
+87-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+88            <meta-data
+88-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:85
+89                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+89-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-120
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+92                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+92-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/vishadjain/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+95                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+95-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/vishadjain/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/vishadjain/.gradle/caches/transforms-3/0bae73db390fd6d7d0d8731c5a5de2e8/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.1.3] /Users/vishadjain/.gradle/caches/transforms-3/1b80a46e5408f3b8bcac19af16137aa7/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.1.3] /Users/vishadjain/.gradle/caches/transforms-3/1b80a46e5408f3b8bcac19af16137aa7/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.1.3] /Users/vishadjain/.gradle/caches/transforms-3/1b80a46e5408f3b8bcac19af16137aa7/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+100        </service>
+101
+102        <provider
+102-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-27:38
+103            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+103-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-88
+104            android:authorities="com.brainstorm.reactnativefirebaseappinitprovider"
+104-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-86
+105            android:exported="false"
+105-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-37
+106            android:initOrder="99" />
+106-->[:react-native-firebase_app] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-35
+107        <provider
+107-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:9-43:20
+108            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+108-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-70
+109            android:authorities="com.brainstorm.provider"
+109-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-60
+110            android:exported="false"
+110-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-37
+111            android:grantUriPermissions="true" >
+111-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-47
+112            <meta-data
+112-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-42:58
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:17-67
+114                android:resource="@xml/provider_paths" />
+114-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:17-55
+115        </provider>
+116        <provider
+116-->[:react-native-webview] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+117            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+117-->[:react-native-webview] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-83
+118            android:authorities="com.brainstorm.fileprovider"
+118-->[:react-native-webview] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-64
+119            android:exported="false"
+119-->[:react-native-webview] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+120            android:grantUriPermissions="true" >
+120-->[:react-native-webview] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+121            <meta-data
+121-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-42:58
+122                android:name="android.support.FILE_PROVIDER_PATHS"
+122-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:17-67
+123                android:resource="@xml/file_provider_paths" />
+123-->[:react-native-blob-util] /Users/vishadjain/Documents/Brainstorm/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:17-55
+124        </provider>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+127            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+127-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+128            android:excludeFromRecents="true"
+128-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+131        <!--
+132            Service handling Google Sign-In user revocation. For apps that do not integrate with
+133            Google Sign-In, this service will never be started.
+134        -->
+135        <service
+135-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+136            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+136-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+137            android:exported="true"
+137-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+138            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+138-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+139            android:visibleToInstantApps="true" />
+139-->[com.google.android.gms:play-services-auth:20.5.0] /Users/vishadjain/.gradle/caches/transforms-3/c3839e75feabe8ca6f76eb3df3f7bc76/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+140
+141        <receiver
+141-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+142            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+142-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+143            android:exported="true"
+143-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+144            android:permission="com.google.android.c2dm.permission.SEND" >
+144-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+145            <intent-filter>
+145-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-29:29
+146                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+146-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-81
+146-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-78
+147            </intent-filter>
+148        </receiver>
+149        <!--
+150             FirebaseMessagingService performs security checks at runtime,
+151             but set to not exported to explicitly avoid allowing another app to call it.
+152        -->
+153        <service
+153-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+154            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+154-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+156            android:exported="false" >
+156-->[com.google.firebase:firebase-messaging:23.1.2] /Users/vishadjain/.gradle/caches/transforms-3/de903e48103d6339c9e9fafb54e8d6df/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+157            <intent-filter android:priority="-500" >
+157-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-20:29
+158                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+158-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-78
+158-->[:react-native-firebase_messaging] /Users/vishadjain/Documents/Brainstorm/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:25-75
+159            </intent-filter>
+160        </service>
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishadjain/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishadjain/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishadjain/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:18.0.1] /Users/vishadjain/.gradle/caches/transforms-3/b71ef279c1683b5749acb2f0aa91f82a/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:20.3.2] /Users/vishadjain/.gradle/caches/transforms-3/a6cd7e576e08b99d5dc985b2b6e0f7a7/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:20.3.2] /Users/vishadjain/.gradle/caches/transforms-3/a6cd7e576e08b99d5dc985b2b6e0f7a7/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+169            android:authorities="com.brainstorm.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:20.3.2] /Users/vishadjain/.gradle/caches/transforms-3/a6cd7e576e08b99d5dc985b2b6e0f7a7/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+170            android:directBootAware="true"
+170-->[com.google.firebase:firebase-common:20.3.2] /Users/vishadjain/.gradle/caches/transforms-3/a6cd7e576e08b99d5dc985b2b6e0f7a7/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+171            android:exported="false"
+171-->[com.google.firebase:firebase-common:20.3.2] /Users/vishadjain/.gradle/caches/transforms-3/a6cd7e576e08b99d5dc985b2b6e0f7a7/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+172            android:initOrder="100" />
+172-->[com.google.firebase:firebase-common:20.3.2] /Users/vishadjain/.gradle/caches/transforms-3/a6cd7e576e08b99d5dc985b2b6e0f7a7/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+173
+174        <meta-data
+174-->[com.google.android.gms:play-services-basement:18.2.0] /Users/vishadjain/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+175            android:name="com.google.android.gms.version"
+175-->[com.google.android.gms:play-services-basement:18.2.0] /Users/vishadjain/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+176            android:value="@integer/google_play_services_version" />
+176-->[com.google.android.gms:play-services-basement:18.2.0] /Users/vishadjain/.gradle/caches/transforms-3/4c98ac1678e91268ed33f9d3ff7f04ab/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+177
+178        <provider
+178-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+179            android:name="androidx.startup.InitializationProvider"
+179-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+180            android:authorities="com.brainstorm.androidx-startup"
+180-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+181            android:exported="false" >
+181-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+182            <meta-data
+182-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+183                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+183-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+184                android:value="androidx.startup" />
+184-->[androidx.emoji2:emoji2:1.2.0] /Users/vishadjain/.gradle/caches/transforms-3/1443cf50b96023bc0beb7745f2e839a4/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+185            <meta-data
+185-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/vishadjain/.gradle/caches/transforms-3/4da2f8c465de086e52d190a7ef2c9856/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+186                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+186-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/vishadjain/.gradle/caches/transforms-3/4da2f8c465de086e52d190a7ef2c9856/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+187                android:value="androidx.startup" />
+187-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/vishadjain/.gradle/caches/transforms-3/4da2f8c465de086e52d190a7ef2c9856/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+188        </provider>
+189
+190        <meta-data
+190-->[com.facebook.soloader:soloader:0.10.5] /Users/vishadjain/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+191            android:name="com.facebook.soloader.enabled"
+191-->[com.facebook.soloader:soloader:0.10.5] /Users/vishadjain/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+192            android:value="false" />
+192-->[com.facebook.soloader:soloader:0.10.5] /Users/vishadjain/.gradle/caches/transforms-3/3019da999cc2320dc750092c570bfcb2/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+193
+194        <service
+194-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+195            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+195-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+196            android:exported="false" >
+196-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+197            <meta-data
+197-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+198                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+198-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+199                android:value="cct" />
+199-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/4b3a84e4c9cab6acdee4e047e19c05dc/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+200        </service>
+201        <service
+201-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+202            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+202-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+203            android:exported="false"
+203-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+204            android:permission="android.permission.BIND_JOB_SERVICE" >
+204-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+205        </service>
+206
+207        <receiver
+207-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+208            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+208-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+209            android:exported="false" />
+209-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/vishadjain/.gradle/caches/transforms-3/e51731b7759d02f6d120e93002151030/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+210    </application>
+211
+212</manifest>

@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_nopti.gif.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_nopti.gif"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_bell.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_bell.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-xxxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-xxxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_newlogobrainstorm.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_newlogobrainstorm.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_nopdf.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_nopdf.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_noskills.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_noskills.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_meet.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_meet.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_header1.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_header1.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_next.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_next.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_stats.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_stats.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_home.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_home.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_avatar1.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_avatar1.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_assessment.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_assessment.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-xhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-xhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_openeye.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_openeye.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_drop.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_drop.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_course.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_course.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_loginheader.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_loginheader.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_assign.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_assign.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_head.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_head.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_logopass.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_logopass.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_eyeclosed.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_eyeclosed.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.brainstorm.app-main-42:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_arrow.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_arrow.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_avatar.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_avatar.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_view.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_view.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_book1.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_book1.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_settings.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_settings.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_profile.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_profile.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-xxhdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-xxhdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_play.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_play.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_switch.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_switch.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_close.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/node_modules_reactnativecountrypickermodal_lib_assets_images_close.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_close.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_close.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_search.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_search.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_back2.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_back2.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_chapter.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_chapter.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_norubrics.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_norubrics.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-hdpi_node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-hdpi/node_modules_reactnavigation_drawer_src_views_assets_toggledrawericon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/node_modules_reactnativecountrypickermodal_lib_assets_images_closeios.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_ic.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_ic.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_menu.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_menu.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_eye.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_eye.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_logo.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_logo.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_stats1.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_stats1.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_calendar.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_calendar.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_mainlogo1.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_mainlogo1.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_book.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_book.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.brainstorm.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.brainstorm.app-merged_res-41:/drawable-mdpi_src_assets_neechewala.png.flat",
+        "source": "com.brainstorm.app-res-34:/drawable-mdpi/src_assets_neechewala.png"
+    }
+]

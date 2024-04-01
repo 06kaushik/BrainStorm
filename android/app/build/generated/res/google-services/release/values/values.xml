@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">182687252415-vohvscokiaui8ck1ukjgjqp85qo4h8kn.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">182687252415</string>
+    <string name="google_api_key" translatable="false">AIzaSyCHCR56TV_i3OaNlc7b4XE05DCicOy_Pa8</string>
+    <string name="google_app_id" translatable="false">1:182687252415:android:48d73d775bae365c19ab0a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHCR56TV_i3OaNlc7b4XE05DCicOy_Pa8</string>
+    <string name="google_storage_bucket" translatable="false">brainstorm-dca67.appspot.com</string>
+    <string name="project_id" translatable="false">brainstorm-dca67</string>
+</resources>
